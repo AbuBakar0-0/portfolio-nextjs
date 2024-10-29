@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import "./globals.css";
 import Hero from "./components/Hero";
 
 export default function Home() {
@@ -35,7 +34,6 @@ export default function Home() {
 
   return (
     <>
-      {/* <Navbar /> */}
       <Hero />
     </>
   );

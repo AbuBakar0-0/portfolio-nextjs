@@ -32,6 +32,8 @@
   position: absolute;
 }
 
+
+
 #ring:nth-child(1) {
   border-bottom: 8px solid rgb(255, 141, 249);
   animation: rotate1 2s linear infinite;
@@ -316,4 +318,6 @@ input:checked + .slider:before {
     left:-2%
   }
 }
+
+
 
