@@ -6,6 +6,7 @@
   cursor: none;
 } */
 
+
 /* From Uiverse.io by dimasptrautmaa */
 #page {
   display: flex;
@@ -318,6 +319,7 @@ input:checked + .slider:before {
     left:-2%
   }
 }
+
 
 
 
