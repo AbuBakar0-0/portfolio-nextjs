@@ -13,8 +13,7 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        "bg-light": "url('/assets/bg-light.png')",
-        "bg-dark": "url('/assets/bg-dark.png')",
+        "dark": "url('/assets/bg-dark.png')",
       },
       backgroundSize: {
         "200%": "200%",

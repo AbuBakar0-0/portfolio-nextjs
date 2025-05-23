@@ -1,14 +1,11 @@
+import Avatar from "./_components/avatar"
 
-function Hero() {
+function HomePage() {
     return (
         <>
             <div className="w-full h-screen flex flex-col justify-center items-center p-20">
-                <div className="w-full flex flex-col md:flex-row justify-center items-center gap-5 mb-10 md:mb-0">
-                    <img src="./assets/avatar.gif" alt="avatar.gif" className="md:size-20" />
-                    <div className="border-[0.5px] border-white rounded-full shadow-sm dark:shadow-white flex justify-center items-center">
-                        <span className="p-3">Hi, I'm Abu Bakar</span>
-                    </div>
-                </div>
+                <Avatar/>
+                
                 <div className="text-5xl lg:text-9xl flex flex-col justify-center items-center font-semibold uppercase tracking-wide gap-5 md:gap-3">
                     <span className='flex flex-row justify-center items-center gap-5'>
                         <p className='text-violet-400'>Design</p>
@@ -18,7 +15,7 @@ function Hero() {
 
                     <div className='w-full flex flex-col md:flex-row justify-center items-center gap-5'>
                         <div className="textWrapper relative">
-                            <span className="text-4xl md:text-6xl lg:text-9xl">Develop</span>
+                            <span className="text-4xl md:text-6xl lg:text-9xl text-white">Develop</span>
                             <div className="invertbox"></div>
                         </div>
                         <button className="bookmarkBtn text-sm hidden md:flex relative">
@@ -38,4 +35,4 @@ function Hero() {
     )
 }
 
-export default Hero
+export default HomePage

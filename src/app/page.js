@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Hero from "./components/Hero";
+import HomePage from './home/page';
 
 export default function Home() {
   const [showSplash, setShowSplash] = useState(true);
@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <>
-      <Hero />
+      <HomePage />
     </>
   );
 }

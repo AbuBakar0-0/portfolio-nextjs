@@ -7,6 +7,10 @@
 } */
 
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* From Uiverse.io by dimasptrautmaa */
 #page {
   display: flex;

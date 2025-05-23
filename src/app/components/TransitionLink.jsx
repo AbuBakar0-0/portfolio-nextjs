@@ -7,7 +7,6 @@ const TransitionLink = ({ href, label }) => {
   const pathname = usePathname()
 
   const handleClick = () => {
-    console.log("Clicked",href)
     if (pathname !== href) {
       animatePageOut(href, router)
     }
